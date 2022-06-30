@@ -1,0 +1,291 @@
+/*General*/
+
+*{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+ min-height: 100vh;
+ padding-bottom: 100px;
+ position: relative;
+ background-color: black;
+}
+
+.row{
+    margin: 0;
+}
+
+.row h2{
+    color: rgba(230, 242, 232, 0.824);
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+.container-fluid form label{
+    color: rgba(230, 242, 232, 0.824);
+}
+
+.container-fluid form input{
+    color: black;
+}
+
+.container-fluid{
+    color: rgba(230, 242, 232, 0.824);
+}
+
+.btn-primary{
+    background-color:  #f2a340;
+    border: 2px solid #c28008;
+}
+
+.btn-primary:hover{
+    background-color: #c28008;
+    border-color: #c28008;
+}
+
+.msg{
+    background-color:  #d4edda;
+    color: 2px solid black;
+    border: 1px solid #c3e6cb;
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 10px;
+}
+
+header{
+    background-color: black;
+    border-bottom: 1px solid #ccc;
+    height: 80px;
+}
+
+#info-container .already-joined-msg{
+    margin: 15px 0;
+    color: #004085;
+    background-color: #cce5ff;
+    border: 1px solid #b8daff;
+    padding: 10px;
+    width: 275px;
+}
+
+
+/*Navbar*/
+#navbar img{
+    width: 100px;
+    padding: 15px ;
+}
+
+#navbar{
+    justify-content: space-between;
+    background-color: black;
+    padding: 5px 0;
+    height: 75px;
+}
+
+#navbar a{
+    font-size: 14px;
+    color: #f4ecec;
+}
+
+#navbar li{
+    border-radius: 10px;
+    background-color:  rgba(49, 44, 44, 0.683);
+    max-height: 35px;
+}
+
+#navbar a:hover{
+    color: #f2a340;
+}
+
+/*Search container*/
+
+#search-container{
+    background-image: url("../img/Fundo.png.crdownload");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    padding: 50px;
+    text-align: center;
+}
+
+#search-container h1{
+    color: #fff;
+    opacity: initial;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgba(49, 44, 44, 0.683);
+    border-radius: 10px;
+}
+
+#search-container form{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*Car list*/
+
+#cars-container{
+    padding: 50px;
+}
+
+#cars-container h2{
+    margin-bottom: 10px;  
+    color: rgba(230, 242, 232, 0.824);
+}
+
+#cars-container .subtitle{
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+#cards-container{
+    display: flex;
+}
+
+#cars-container .card{
+    flex: 1 1 24%;
+    max-width: 25%;
+    border-radius: 10px;
+    padding: 0;
+    margin: .5%;
+}
+
+#cars-container img{
+    max-height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card .card-codigo{
+    font-size: 12px;
+    color: #ccc;
+}
+
+.card .card-modelo{
+    color: #212121;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.card .card-comparadores{
+    font-size: 14px;
+    color: #757575;
+}
+
+#car-create-container{
+    padding: 30px;
+}
+
+#car-create-container label{
+    font-weight: bold;
+}
+
+#car-create-container input
+#car-create-container select
+#car-create-container textarea{
+    font-size: 12px;
+}
+
+/*Car page*/
+
+#image-container,
+#info-container{
+    margin-top: 30px;
+}
+
+#image-container img{
+    border-radius: 10px;
+}
+
+#info-container h1{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+#info-container p{
+    margin: 0;
+    font-size: 14px;
+    display: flex;
+}
+
+#info-container h3,
+#description-container h3{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-container ion-icon{
+    font-size: 20px;
+    color: #f2a340;
+    margin-right: 5px;
+}
+
+#info-container #car-submit{
+    margin: 20px 0;
+}
+
+#cars-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+#cars-list li{
+    display: flex;
+}
+
+#description-container{
+    margin-top: 30px;
+}
+
+/*Dashboard*/
+
+.dashboard-modelo-container{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    color: rgba(230, 242, 232, 0.824);
+}
+
+.dashboard-modelo-container table{
+    color: rgba(230, 242, 232, 0.824);
+}
+
+.dashboard-cars-container th{
+    width: 25%;
+    color: rgba(230, 242, 232, 0.824);
+}
+
+
+.dashboard-cars-container form{
+    display: inline-block;
+}
+
+.dashboard-cars-container tbody{
+    color: rgba(230, 242, 232, 0.824);
+}
+
+/*Edit page*/
+
+.img-preview{
+    width: 100px;
+    margin-top: 20px;
+}
+
+/*Footer*/
+
+footer{
+    text-align: center;
+    background-color: #353e48;
+    color: #fff;
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p{
+    margin-bottom: 0;
+}
